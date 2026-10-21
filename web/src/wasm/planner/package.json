@@ -1,0 +1,16 @@
+{
+  "name": "planner",
+  "type": "module",
+  "description": "Mobile-robot motion planners (A*, RRT, RRT*) compiled to WASM",
+  "version": "0.1.0",
+  "files": [
+    "planner_bg.wasm",
+    "planner.js",
+    "planner.d.ts"
+  ],
+  "main": "planner.js",
+  "types": "planner.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

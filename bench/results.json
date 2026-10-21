@@ -1,0 +1,4128 @@
+{
+  "robotRadius": 12.0,
+  "gridSize": 10.0,
+  "seeds": 10,
+  "params": {
+    "goalBias": 0.05,
+    "goalTolerance": 20.0,
+    "gridSize": 10.0,
+    "maxIterations": 20000,
+    "rewireRadius": 60.0,
+    "stepSize": 25.0
+  },
+  "maps": 20,
+  "results": [
+    {
+      "mapId": "m01",
+      "mapName": "Open field",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.08270000000000001,
+      "meanNodesExplored": 85.0,
+      "meanPathLength": 854.1421356237311,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.08270000000000001,
+          "nodesExplored": 85,
+          "iterations": 85,
+          "pathLength": 854.1421356237311
+        }
+      ]
+    },
+    {
+      "mapId": "m01",
+      "mapName": "Open field",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.10763,
+      "meanNodesExplored": 146.3,
+      "meanPathLength": 1045.1926267247322,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.1502,
+          "nodesExplored": 178,
+          "iterations": 177,
+          "pathLength": 920.2373786665779
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.1109,
+          "nodesExplored": 198,
+          "iterations": 197,
+          "pathLength": 1208.8308286971028
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.12860000000000002,
+          "nodesExplored": 146,
+          "iterations": 145,
+          "pathLength": 1009.8618893795154
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.0881,
+          "nodesExplored": 110,
+          "iterations": 109,
+          "pathLength": 1015.5352404370171
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.0732,
+          "nodesExplored": 85,
+          "iterations": 84,
+          "pathLength": 1047.1192258572778
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.11349999999999999,
+          "nodesExplored": 199,
+          "iterations": 198,
+          "pathLength": 1024.5707437965966
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.0974,
+          "nodesExplored": 150,
+          "iterations": 149,
+          "pathLength": 1060.7255994446725
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.129,
+          "nodesExplored": 141,
+          "iterations": 140,
+          "pathLength": 1035.7441733599414
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.0921,
+          "nodesExplored": 142,
+          "iterations": 141,
+          "pathLength": 1103.4107018676882
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.09330000000000001,
+          "nodesExplored": 114,
+          "iterations": 113,
+          "pathLength": 1025.8904857409334
+        }
+      ]
+    },
+    {
+      "mapId": "m01",
+      "mapName": "Open field",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 101.11835,
+      "meanNodesExplored": 19008.9,
+      "meanPathLength": 840.075990165531,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 99.25580000000001,
+          "nodesExplored": 19021,
+          "iterations": 20000,
+          "pathLength": 840.0634162568708
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 101.8477,
+          "nodesExplored": 19047,
+          "iterations": 20000,
+          "pathLength": 840.0534189028466
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 98.79499999999999,
+          "nodesExplored": 18997,
+          "iterations": 20000,
+          "pathLength": 840.11874415111
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 102.78030000000001,
+          "nodesExplored": 18988,
+          "iterations": 20000,
+          "pathLength": 840.1072350798939
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 103.2297,
+          "nodesExplored": 19001,
+          "iterations": 20000,
+          "pathLength": 840.0668807878905
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 104.0593,
+          "nodesExplored": 19025,
+          "iterations": 20000,
+          "pathLength": 840.0436202266511
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 99.8446,
+          "nodesExplored": 18995,
+          "iterations": 20000,
+          "pathLength": 840.0419062441157
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 102.08059999999999,
+          "nodesExplored": 19011,
+          "iterations": 20000,
+          "pathLength": 840.1194937986965
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 98.70230000000001,
+          "nodesExplored": 19021,
+          "iterations": 20000,
+          "pathLength": 840.0631929275432
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 100.5882,
+          "nodesExplored": 18983,
+          "iterations": 20000,
+          "pathLength": 840.0819932796903
+        }
+      ]
+    },
+    {
+      "mapId": "m02",
+      "mapName": "Single wall",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.6162,
+      "meanNodesExplored": 1879.0,
+      "meanPathLength": 1052.9646455628167,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.6162,
+          "nodesExplored": 1879,
+          "iterations": 4569,
+          "pathLength": 1052.9646455628167
+        }
+      ]
+    },
+    {
+      "mapId": "m02",
+      "mapName": "Single wall",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.28762,
+      "meanNodesExplored": 260.9,
+      "meanPathLength": 1266.5550720142833,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.42729999999999996,
+          "nodesExplored": 265,
+          "iterations": 429,
+          "pathLength": 1178.9874164051569
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.326,
+          "nodesExplored": 309,
+          "iterations": 509,
+          "pathLength": 1403.716749873373
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.3748,
+          "nodesExplored": 257,
+          "iterations": 408,
+          "pathLength": 1269.7314018168745
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.35750000000000004,
+          "nodesExplored": 289,
+          "iterations": 495,
+          "pathLength": 1315.2222029611248
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.1949,
+          "nodesExplored": 196,
+          "iterations": 292,
+          "pathLength": 1265.8619364219944
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.2591,
+          "nodesExplored": 275,
+          "iterations": 419,
+          "pathLength": 1255.3718803460988
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.18139999999999998,
+          "nodesExplored": 188,
+          "iterations": 268,
+          "pathLength": 1269.5996875063165
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.22619999999999998,
+          "nodesExplored": 264,
+          "iterations": 346,
+          "pathLength": 1141.2520542377167
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.2993,
+          "nodesExplored": 310,
+          "iterations": 509,
+          "pathLength": 1217.737838186721
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.2297,
+          "nodesExplored": 256,
+          "iterations": 389,
+          "pathLength": 1348.069552387455
+        }
+      ]
+    },
+    {
+      "mapId": "m02",
+      "mapName": "Single wall",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 93.99202,
+      "meanNodesExplored": 18211.7,
+      "meanPathLength": 974.6767071294969,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 96.1478,
+          "nodesExplored": 18192,
+          "iterations": 20000,
+          "pathLength": 974.9256460257363
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 99.6112,
+          "nodesExplored": 18232,
+          "iterations": 20000,
+          "pathLength": 974.6760544847887
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 91.71690000000001,
+          "nodesExplored": 18222,
+          "iterations": 20000,
+          "pathLength": 974.3338022244473
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 93.3998,
+          "nodesExplored": 18129,
+          "iterations": 20000,
+          "pathLength": 974.768452388956
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 93.9844,
+          "nodesExplored": 18245,
+          "iterations": 20000,
+          "pathLength": 974.7075379771511
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 96.28399999999999,
+          "nodesExplored": 18232,
+          "iterations": 20000,
+          "pathLength": 974.5806516752332
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 92.5655,
+          "nodesExplored": 18234,
+          "iterations": 20000,
+          "pathLength": 974.7096520996538
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 90.21260000000001,
+          "nodesExplored": 18277,
+          "iterations": 20000,
+          "pathLength": 974.5333674078177
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 93.47370000000001,
+          "nodesExplored": 18167,
+          "iterations": 20000,
+          "pathLength": 974.5066094791462
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 92.52430000000001,
+          "nodesExplored": 18187,
+          "iterations": 20000,
+          "pathLength": 975.0252975320407
+        }
+      ]
+    },
+    {
+      "mapId": "m03",
+      "mapName": "Serpentine corridors",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.6421,
+      "meanNodesExplored": 3893.0,
+      "meanPathLength": 3353.969696196702,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.6421,
+          "nodesExplored": 3893,
+          "iterations": 6288,
+          "pathLength": 3353.969696196702
+        }
+      ]
+    },
+    {
+      "mapId": "m03",
+      "mapName": "Serpentine corridors",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 2.0183299999999997,
+      "meanNodesExplored": 2777.7,
+      "meanPathLength": 4026.0938696574835,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 2.3253000000000004,
+          "nodesExplored": 2804,
+          "iterations": 5297,
+          "pathLength": 3927.897463887782
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 1.9063999999999999,
+          "nodesExplored": 2689,
+          "iterations": 5230,
+          "pathLength": 4153.214350389809
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 2.4551,
+          "nodesExplored": 2453,
+          "iterations": 5105,
+          "pathLength": 3986.5649236948657
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 2.5658,
+          "nodesExplored": 3425,
+          "iterations": 6729,
+          "pathLength": 4021.1661272360507
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 1.8669,
+          "nodesExplored": 2698,
+          "iterations": 5250,
+          "pathLength": 4153.612641424608
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 1.8603999999999998,
+          "nodesExplored": 2690,
+          "iterations": 4915,
+          "pathLength": 3994.1379996634937
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 1.8817,
+          "nodesExplored": 2808,
+          "iterations": 5231,
+          "pathLength": 4128.340556464908
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 1.6887,
+          "nodesExplored": 2503,
+          "iterations": 4772,
+          "pathLength": 4108.925849770623
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 1.9548,
+          "nodesExplored": 2988,
+          "iterations": 5516,
+          "pathLength": 3914.8555502073555
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 1.6782,
+          "nodesExplored": 2719,
+          "iterations": 5048,
+          "pathLength": 3872.223233835338
+        }
+      ]
+    },
+    {
+      "mapId": "m03",
+      "mapName": "Serpentine corridors",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 68.93020999999999,
+      "meanNodesExplored": 14425.8,
+      "meanPathLength": 3187.6048075989506,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 68.8695,
+          "nodesExplored": 14538,
+          "iterations": 20000,
+          "pathLength": 3187.702043480542
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 65.896,
+          "nodesExplored": 14414,
+          "iterations": 20000,
+          "pathLength": 3185.292379857345
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 65.12089999999999,
+          "nodesExplored": 14220,
+          "iterations": 20000,
+          "pathLength": 3188.075412223896
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 62.5256,
+          "nodesExplored": 13865,
+          "iterations": 20000,
+          "pathLength": 3190.623171810565
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 70.845,
+          "nodesExplored": 14407,
+          "iterations": 20000,
+          "pathLength": 3192.265181139156
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 69.606,
+          "nodesExplored": 14621,
+          "iterations": 20000,
+          "pathLength": 3185.8726096238383
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 73.06989999999999,
+          "nodesExplored": 14541,
+          "iterations": 20000,
+          "pathLength": 3188.2354589780048
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 72.2105,
+          "nodesExplored": 14538,
+          "iterations": 20000,
+          "pathLength": 3189.091202663924
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 72.3627,
+          "nodesExplored": 14533,
+          "iterations": 20000,
+          "pathLength": 3183.7415778233017
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 68.79599999999999,
+          "nodesExplored": 14581,
+          "iterations": 20000,
+          "pathLength": 3185.149038388934
+        }
+      ]
+    },
+    {
+      "mapId": "m04",
+      "mapName": "Maze",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.7432,
+      "meanNodesExplored": 1128.0,
+      "meanPathLength": 1380.5978901872386,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.7432,
+          "nodesExplored": 1128,
+          "iterations": 1993,
+          "pathLength": 1380.5978901872386
+        }
+      ]
+    },
+    {
+      "mapId": "m04",
+      "mapName": "Maze",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 1.49202,
+      "meanNodesExplored": 240.4,
+      "meanPathLength": 1733.7682215005248,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 1.1911999999999998,
+          "nodesExplored": 280,
+          "iterations": 1350,
+          "pathLength": 1702.6731563113012
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 1.2529,
+          "nodesExplored": 190,
+          "iterations": 922,
+          "pathLength": 1656.455026912897
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 1.1235,
+          "nodesExplored": 207,
+          "iterations": 1288,
+          "pathLength": 1730.6858163161298
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 2.6927000000000003,
+          "nodesExplored": 282,
+          "iterations": 2473,
+          "pathLength": 1803.6534927249484
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.9365,
+          "nodesExplored": 186,
+          "iterations": 943,
+          "pathLength": 1792.0807047432338
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 1.2334,
+          "nodesExplored": 238,
+          "iterations": 1309,
+          "pathLength": 1788.8971821545085
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 1.8092,
+          "nodesExplored": 310,
+          "iterations": 1659,
+          "pathLength": 1719.085812716854
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 1.65,
+          "nodesExplored": 214,
+          "iterations": 1112,
+          "pathLength": 1629.201370582027
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.8028,
+          "nodesExplored": 216,
+          "iterations": 855,
+          "pathLength": 1672.2159447807528
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 2.2279999999999998,
+          "nodesExplored": 281,
+          "iterations": 1736,
+          "pathLength": 1842.733707762592
+        }
+      ]
+    },
+    {
+      "mapId": "m04",
+      "mapName": "Maze",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 64.5742,
+      "meanNodesExplored": 12317.5,
+      "meanPathLength": 1285.7724598646694,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 68.00019999999999,
+          "nodesExplored": 12223,
+          "iterations": 20000,
+          "pathLength": 1286.1309207965842
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 65.3414,
+          "nodesExplored": 12431,
+          "iterations": 20000,
+          "pathLength": 1284.7506104914698
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 63.304399999999994,
+          "nodesExplored": 12372,
+          "iterations": 20000,
+          "pathLength": 1288.892069742465
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 59.8573,
+          "nodesExplored": 11847,
+          "iterations": 20000,
+          "pathLength": 1282.984223630251
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 62.4365,
+          "nodesExplored": 12591,
+          "iterations": 20000,
+          "pathLength": 1285.349319618446
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 66.4148,
+          "nodesExplored": 12486,
+          "iterations": 20000,
+          "pathLength": 1288.6280210442799
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 62.520900000000005,
+          "nodesExplored": 12185,
+          "iterations": 20000,
+          "pathLength": 1284.5490840734121
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 68.7672,
+          "nodesExplored": 12685,
+          "iterations": 20000,
+          "pathLength": 1286.6362307382217
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 70.1542,
+          "nodesExplored": 12618,
+          "iterations": 20000,
+          "pathLength": 1284.601976658167
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 58.945100000000004,
+          "nodesExplored": 11737,
+          "iterations": 20000,
+          "pathLength": 1285.2021418533946
+        }
+      ]
+    },
+    {
+      "mapId": "m05",
+      "mapName": "Bug trap",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.1995,
+      "meanNodesExplored": 645.0,
+      "meanPathLength": 1025.9797974644666,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.1995,
+          "nodesExplored": 645,
+          "iterations": 789,
+          "pathLength": 1025.9797974644666
+        }
+      ]
+    },
+    {
+      "mapId": "m05",
+      "mapName": "Bug trap",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.5372899999999999,
+      "meanNodesExplored": 226.5,
+      "meanPathLength": 1280.2326627538712,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.44,
+          "nodesExplored": 171,
+          "iterations": 429,
+          "pathLength": 1264.7139268488663
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.7389,
+          "nodesExplored": 293,
+          "iterations": 732,
+          "pathLength": 1293.5205487956143
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.4956,
+          "nodesExplored": 312,
+          "iterations": 599,
+          "pathLength": 1387.701198716094
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.569,
+          "nodesExplored": 210,
+          "iterations": 548,
+          "pathLength": 1256.283744341191
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.7617,
+          "nodesExplored": 259,
+          "iterations": 746,
+          "pathLength": 1343.4504151469937
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.4167,
+          "nodesExplored": 163,
+          "iterations": 427,
+          "pathLength": 1193.214310438433
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.6579999999999999,
+          "nodesExplored": 325,
+          "iterations": 686,
+          "pathLength": 1366.6542362395
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.507,
+          "nodesExplored": 215,
+          "iterations": 535,
+          "pathLength": 1264.2305959051928
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.3194,
+          "nodesExplored": 131,
+          "iterations": 324,
+          "pathLength": 1204.2572630575398
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.4666,
+          "nodesExplored": 186,
+          "iterations": 473,
+          "pathLength": 1228.3003880492877
+        }
+      ]
+    },
+    {
+      "mapId": "m05",
+      "mapName": "Bug trap",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 96.96603,
+      "meanNodesExplored": 17750.1,
+      "meanPathLength": 974.5505393233736,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 97.13579999999999,
+          "nodesExplored": 17789,
+          "iterations": 20000,
+          "pathLength": 973.802386853982
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 94.61880000000001,
+          "nodesExplored": 17701,
+          "iterations": 20000,
+          "pathLength": 976.423652687512
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 95.6244,
+          "nodesExplored": 17786,
+          "iterations": 20000,
+          "pathLength": 974.3821108854634
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 94.6925,
+          "nodesExplored": 17718,
+          "iterations": 20000,
+          "pathLength": 973.3337103066898
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 94.2544,
+          "nodesExplored": 17640,
+          "iterations": 20000,
+          "pathLength": 976.2567936818571
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 99.263,
+          "nodesExplored": 17778,
+          "iterations": 20000,
+          "pathLength": 972.7039847904967
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 100.29939999999999,
+          "nodesExplored": 17734,
+          "iterations": 20000,
+          "pathLength": 973.9656888975283
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 100.17620000000001,
+          "nodesExplored": 17717,
+          "iterations": 20000,
+          "pathLength": 976.6471453192806
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 99.05120000000001,
+          "nodesExplored": 17888,
+          "iterations": 20000,
+          "pathLength": 974.8750295421519
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 94.5446,
+          "nodesExplored": 17750,
+          "iterations": 20000,
+          "pathLength": 973.1148902687737
+        }
+      ]
+    },
+    {
+      "mapId": "m06",
+      "mapName": "Narrow passage",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.136,
+      "meanNodesExplored": 197.0,
+      "meanPathLength": 939.8275605729689,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.136,
+          "nodesExplored": 197,
+          "iterations": 197,
+          "pathLength": 939.8275605729689
+        }
+      ]
+    },
+    {
+      "mapId": "m06",
+      "mapName": "Narrow passage",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.27024,
+      "meanNodesExplored": 226.0,
+      "meanPathLength": 1079.4143812473428,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.18239999999999998,
+          "nodesExplored": 145,
+          "iterations": 164,
+          "pathLength": 1027.3219753135788
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.1547,
+          "nodesExplored": 203,
+          "iterations": 238,
+          "pathLength": 1069.4340207864407
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.2795,
+          "nodesExplored": 253,
+          "iterations": 375,
+          "pathLength": 1165.5018971589184
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.2053,
+          "nodesExplored": 188,
+          "iterations": 255,
+          "pathLength": 1134.3165676132983
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.9223,
+          "nodesExplored": 499,
+          "iterations": 974,
+          "pathLength": 1006.2402591429975
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.4511,
+          "nodesExplored": 362,
+          "iterations": 599,
+          "pathLength": 1162.514524344993
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.12229999999999999,
+          "nodesExplored": 164,
+          "iterations": 168,
+          "pathLength": 1085.8275667691973
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.1367,
+          "nodesExplored": 155,
+          "iterations": 182,
+          "pathLength": 1027.9386932119653
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.1189,
+          "nodesExplored": 158,
+          "iterations": 176,
+          "pathLength": 1030.9277096175233
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.1292,
+          "nodesExplored": 133,
+          "iterations": 155,
+          "pathLength": 1084.1205985145177
+        }
+      ]
+    },
+    {
+      "mapId": "m06",
+      "mapName": "Narrow passage",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 94.76598,
+      "meanNodesExplored": 18100.3,
+      "meanPathLength": 858.9271791193994,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 94.6289,
+          "nodesExplored": 18181,
+          "iterations": 20000,
+          "pathLength": 858.9311188939886
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 95.59339999999999,
+          "nodesExplored": 18207,
+          "iterations": 20000,
+          "pathLength": 858.9338284867392
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 96.9887,
+          "nodesExplored": 18095,
+          "iterations": 20000,
+          "pathLength": 859.0046528295807
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 95.3429,
+          "nodesExplored": 18113,
+          "iterations": 20000,
+          "pathLength": 858.9072158619676
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 90.9315,
+          "nodesExplored": 17753,
+          "iterations": 20000,
+          "pathLength": 858.9476378090203
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 95.4444,
+          "nodesExplored": 18008,
+          "iterations": 20000,
+          "pathLength": 858.9018482765518
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 93.1159,
+          "nodesExplored": 18176,
+          "iterations": 20000,
+          "pathLength": 858.9080925169252
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 94.2056,
+          "nodesExplored": 18155,
+          "iterations": 20000,
+          "pathLength": 858.9018699107559
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 93.9878,
+          "nodesExplored": 18194,
+          "iterations": 20000,
+          "pathLength": 858.930418679843
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 97.4207,
+          "nodesExplored": 18121,
+          "iterations": 20000,
+          "pathLength": 858.9051079286213
+        }
+      ]
+    },
+    {
+      "mapId": "m07",
+      "mapName": "Spiral",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 1.0281,
+      "meanNodesExplored": 2673.0,
+      "meanPathLength": 2075.2691193458127,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 1.0281,
+          "nodesExplored": 2673,
+          "iterations": 4208,
+          "pathLength": 2075.2691193458127
+        }
+      ]
+    },
+    {
+      "mapId": "m07",
+      "mapName": "Spiral",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 3.9355400000000005,
+      "meanNodesExplored": 3041.0,
+      "meanPathLength": 2747.1549239700266,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 4.7869,
+          "nodesExplored": 3256,
+          "iterations": 12472,
+          "pathLength": 2939.6743222250034
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 3.6361000000000003,
+          "nodesExplored": 2849,
+          "iterations": 9721,
+          "pathLength": 2669.04254304576
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 4.78,
+          "nodesExplored": 3470,
+          "iterations": 13304,
+          "pathLength": 2817.6152557994674
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 2.6512,
+          "nodesExplored": 2497,
+          "iterations": 7975,
+          "pathLength": 2756.162007434288
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 4.7886,
+          "nodesExplored": 3541,
+          "iterations": 12091,
+          "pathLength": 2793.312402182717
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 3.507,
+          "nodesExplored": 3119,
+          "iterations": 10652,
+          "pathLength": 2795.405284457227
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 3.2751,
+          "nodesExplored": 2614,
+          "iterations": 9554,
+          "pathLength": 2578.749049250772
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 3.137,
+          "nodesExplored": 2603,
+          "iterations": 9365,
+          "pathLength": 2738.912287974781
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 3.0873,
+          "nodesExplored": 2197,
+          "iterations": 8001,
+          "pathLength": 2705.311768379703
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 5.7062,
+          "nodesExplored": 4264,
+          "iterations": 13731,
+          "pathLength": 2677.3643189505497
+        }
+      ]
+    },
+    {
+      "mapId": "m07",
+      "mapName": "Spiral",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 34.805899999999994,
+      "meanNodesExplored": 7806.9,
+      "meanPathLength": 2028.7336341955693,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 30.136,
+          "nodesExplored": 7059,
+          "iterations": 20000,
+          "pathLength": 2037.7235217930668
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 35.6986,
+          "nodesExplored": 8101,
+          "iterations": 20000,
+          "pathLength": 2024.2397261280657
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 32.3659,
+          "nodesExplored": 6825,
+          "iterations": 20000,
+          "pathLength": 2028.4406708006145
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 42.6501,
+          "nodesExplored": 8769,
+          "iterations": 20000,
+          "pathLength": 2026.0529213479715
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 33.187000000000005,
+          "nodesExplored": 7540,
+          "iterations": 20000,
+          "pathLength": 2027.1446501049293
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 35.3904,
+          "nodesExplored": 7908,
+          "iterations": 20000,
+          "pathLength": 2029.3228183667318
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 35.8567,
+          "nodesExplored": 8105,
+          "iterations": 20000,
+          "pathLength": 2028.3153851684767
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 34.7169,
+          "nodesExplored": 8124,
+          "iterations": 20000,
+          "pathLength": 2027.4758633081356
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 36.3293,
+          "nodesExplored": 8342,
+          "iterations": 20000,
+          "pathLength": 2028.172759044759
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 31.7281,
+          "nodesExplored": 7296,
+          "iterations": 20000,
+          "pathLength": 2030.4480258929382
+        }
+      ]
+    },
+    {
+      "mapId": "m08",
+      "mapName": "Slalom",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.1972,
+      "meanNodesExplored": 635.0,
+      "meanPathLength": 1084.6803743153548,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.1972,
+          "nodesExplored": 635,
+          "iterations": 1032,
+          "pathLength": 1084.6803743153548
+        }
+      ]
+    },
+    {
+      "mapId": "m08",
+      "mapName": "Slalom",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.33995999999999993,
+      "meanNodesExplored": 218.6,
+      "meanPathLength": 1233.0879524561394,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.37629999999999997,
+          "nodesExplored": 202,
+          "iterations": 463,
+          "pathLength": 1224.4390476901513
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.2319,
+          "nodesExplored": 148,
+          "iterations": 323,
+          "pathLength": 1211.6868499851912
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.3331,
+          "nodesExplored": 301,
+          "iterations": 607,
+          "pathLength": 1319.803691259969
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.3422,
+          "nodesExplored": 215,
+          "iterations": 439,
+          "pathLength": 1278.5419967468395
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.42769999999999997,
+          "nodesExplored": 142,
+          "iterations": 428,
+          "pathLength": 1348.8234892072826
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.28459999999999996,
+          "nodesExplored": 185,
+          "iterations": 401,
+          "pathLength": 1209.24190950903
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.6864,
+          "nodesExplored": 319,
+          "iterations": 686,
+          "pathLength": 1175.3554956050011
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.2264,
+          "nodesExplored": 246,
+          "iterations": 460,
+          "pathLength": 1053.3681950421449
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.2396,
+          "nodesExplored": 212,
+          "iterations": 437,
+          "pathLength": 1341.6335408087991
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.2514,
+          "nodesExplored": 216,
+          "iterations": 413,
+          "pathLength": 1167.9853087069835
+        }
+      ]
+    },
+    {
+      "mapId": "m08",
+      "mapName": "Slalom",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 54.204089999999994,
+      "meanNodesExplored": 11580.9,
+      "meanPathLength": 920.9660259073822,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 54.3036,
+          "nodesExplored": 11641,
+          "iterations": 20000,
+          "pathLength": 919.7169601620056
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 56.7306,
+          "nodesExplored": 11592,
+          "iterations": 20000,
+          "pathLength": 921.1012017559153
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 54.7009,
+          "nodesExplored": 11591,
+          "iterations": 20000,
+          "pathLength": 922.4408647335376
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 56.3696,
+          "nodesExplored": 11596,
+          "iterations": 20000,
+          "pathLength": 920.4765573096449
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 55.0806,
+          "nodesExplored": 11510,
+          "iterations": 20000,
+          "pathLength": 921.4343447457653
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 53.007,
+          "nodesExplored": 11662,
+          "iterations": 20000,
+          "pathLength": 922.7007032507202
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 53.016,
+          "nodesExplored": 11471,
+          "iterations": 20000,
+          "pathLength": 920.128693601339
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 52.049699999999994,
+          "nodesExplored": 11608,
+          "iterations": 20000,
+          "pathLength": 920.7187819389952
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 53.1414,
+          "nodesExplored": 11600,
+          "iterations": 20000,
+          "pathLength": 921.3198813331776
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 53.6415,
+          "nodesExplored": 11538,
+          "iterations": 20000,
+          "pathLength": 919.6222702427197
+        }
+      ]
+    },
+    {
+      "mapId": "m09",
+      "mapName": "Rooms",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.3903,
+      "meanNodesExplored": 1164.0,
+      "meanPathLength": 1024.2640687119285,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.3903,
+          "nodesExplored": 1164,
+          "iterations": 2142,
+          "pathLength": 1024.2640687119285
+        }
+      ]
+    },
+    {
+      "mapId": "m09",
+      "mapName": "Rooms",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.52779,
+      "meanNodesExplored": 360.6,
+      "meanPathLength": 1247.6386227259025,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.4983,
+          "nodesExplored": 254,
+          "iterations": 685,
+          "pathLength": 1238.7615639062844
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.32239999999999996,
+          "nodesExplored": 215,
+          "iterations": 509,
+          "pathLength": 1188.9567844562384
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.7132,
+          "nodesExplored": 327,
+          "iterations": 1023,
+          "pathLength": 1182.1605709975984
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.43360000000000004,
+          "nodesExplored": 239,
+          "iterations": 590,
+          "pathLength": 1232.2014443029218
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.3633,
+          "nodesExplored": 307,
+          "iterations": 701,
+          "pathLength": 1308.034078013585
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.177,
+          "nodesExplored": 132,
+          "iterations": 251,
+          "pathLength": 1173.3733372060062
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.9940000000000001,
+          "nodesExplored": 792,
+          "iterations": 2122,
+          "pathLength": 1338.5188863279911
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.4365,
+          "nodesExplored": 257,
+          "iterations": 672,
+          "pathLength": 1221.6011625032472
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.5526,
+          "nodesExplored": 302,
+          "iterations": 859,
+          "pathLength": 1404.5652129283922
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.787,
+          "nodesExplored": 781,
+          "iterations": 1936,
+          "pathLength": 1188.2131866167608
+        }
+      ]
+    },
+    {
+      "mapId": "m09",
+      "mapName": "Rooms",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 64.40290999999999,
+      "meanNodesExplored": 11537.8,
+      "meanPathLength": 957.3318796445079,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 60.0537,
+          "nodesExplored": 11574,
+          "iterations": 20000,
+          "pathLength": 957.7754417915495
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 60.588,
+          "nodesExplored": 11697,
+          "iterations": 20000,
+          "pathLength": 958.8016225352122
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 57.6066,
+          "nodesExplored": 11447,
+          "iterations": 20000,
+          "pathLength": 956.8980797882213
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 64.307,
+          "nodesExplored": 11657,
+          "iterations": 20000,
+          "pathLength": 956.5687372221196
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 65.9395,
+          "nodesExplored": 11632,
+          "iterations": 20000,
+          "pathLength": 957.6193545873178
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 66.2921,
+          "nodesExplored": 11699,
+          "iterations": 20000,
+          "pathLength": 956.9986703456123
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 64.7957,
+          "nodesExplored": 11211,
+          "iterations": 20000,
+          "pathLength": 958.6113225795464
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 67.2973,
+          "nodesExplored": 11591,
+          "iterations": 20000,
+          "pathLength": 957.0160431644837
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 64.0758,
+          "nodesExplored": 11513,
+          "iterations": 20000,
+          "pathLength": 956.6742841722331
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 73.07339999999999,
+          "nodesExplored": 11357,
+          "iterations": 20000,
+          "pathLength": 956.3552402587823
+        }
+      ]
+    },
+    {
+      "mapId": "m10",
+      "mapName": "Double narrow passage",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.9,
+      "meanNodesExplored": 3791.0,
+      "meanPathLength": 1617.228714274748,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.9,
+          "nodesExplored": 3791,
+          "iterations": 7250,
+          "pathLength": 1617.228714274748
+        }
+      ]
+    },
+    {
+      "mapId": "m10",
+      "mapName": "Double narrow passage",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 1.0731199999999999,
+      "meanNodesExplored": 795.5,
+      "meanPathLength": 2065.7743763174126,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 2.5824,
+          "nodesExplored": 900,
+          "iterations": 2328,
+          "pathLength": 2164.2063455658517
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.566,
+          "nodesExplored": 461,
+          "iterations": 826,
+          "pathLength": 1976.5788211551285
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 1.495,
+          "nodesExplored": 1409,
+          "iterations": 2612,
+          "pathLength": 2072.0796404919647
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 1.3147,
+          "nodesExplored": 1137,
+          "iterations": 2070,
+          "pathLength": 2098.3868370324512
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.5017,
+          "nodesExplored": 331,
+          "iterations": 573,
+          "pathLength": 2118.9777832992804
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 1.1355,
+          "nodesExplored": 671,
+          "iterations": 1469,
+          "pathLength": 2002.9776113148762
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.5363,
+          "nodesExplored": 523,
+          "iterations": 836,
+          "pathLength": 1991.712299077698
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.554,
+          "nodesExplored": 464,
+          "iterations": 753,
+          "pathLength": 1932.3674835037416
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 1.4135,
+          "nodesExplored": 1619,
+          "iterations": 2818,
+          "pathLength": 2245.054813605018
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.6321,
+          "nodesExplored": 440,
+          "iterations": 737,
+          "pathLength": 2055.402128128117
+        }
+      ]
+    },
+    {
+      "mapId": "m10",
+      "mapName": "Double narrow passage",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 92.62255,
+      "meanNodesExplored": 16841.0,
+      "meanPathLength": 1509.5337253200487,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 92.6105,
+          "nodesExplored": 16216,
+          "iterations": 20000,
+          "pathLength": 1512.8039481802914
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 95.4897,
+          "nodesExplored": 17099,
+          "iterations": 20000,
+          "pathLength": 1511.1356976801471
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 89.1011,
+          "nodesExplored": 16457,
+          "iterations": 20000,
+          "pathLength": 1509.6361675259045
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 91.49789999999999,
+          "nodesExplored": 16678,
+          "iterations": 20000,
+          "pathLength": 1510.7290898655112
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 96.1251,
+          "nodesExplored": 17167,
+          "iterations": 20000,
+          "pathLength": 1508.9212467820107
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 93.36179999999999,
+          "nodesExplored": 16791,
+          "iterations": 20000,
+          "pathLength": 1507.6589412383246
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 96.94709999999999,
+          "nodesExplored": 17159,
+          "iterations": 20000,
+          "pathLength": 1509.2647659121048
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 92.8549,
+          "nodesExplored": 17141,
+          "iterations": 20000,
+          "pathLength": 1507.944896473749
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 85.8901,
+          "nodesExplored": 16560,
+          "iterations": 20000,
+          "pathLength": 1510.8286373703017
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 92.34729999999999,
+          "nodesExplored": 17142,
+          "iterations": 20000,
+          "pathLength": 1506.4138621721404
+        }
+      ]
+    },
+    {
+      "mapId": "m11",
+      "mapName": "Zigzag walls",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 1.2191999999999998,
+      "meanNodesExplored": 4099.0,
+      "meanPathLength": 2226.5180361560942,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 1.2191999999999998,
+          "nodesExplored": 4099,
+          "iterations": 7872,
+          "pathLength": 2226.5180361560942
+        }
+      ]
+    },
+    {
+      "mapId": "m11",
+      "mapName": "Zigzag walls",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 2.28316,
+      "meanNodesExplored": 1540.5,
+      "meanPathLength": 2890.799218572585,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 3.3214,
+          "nodesExplored": 2024,
+          "iterations": 4502,
+          "pathLength": 2879.816786397599
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 2.0555,
+          "nodesExplored": 1386,
+          "iterations": 3029,
+          "pathLength": 2612.9877968085293
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 1.7589000000000001,
+          "nodesExplored": 1354,
+          "iterations": 2860,
+          "pathLength": 2855.6683941168535
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 2.367,
+          "nodesExplored": 1714,
+          "iterations": 3566,
+          "pathLength": 3042.5517109819866
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 2.009,
+          "nodesExplored": 1581,
+          "iterations": 3343,
+          "pathLength": 3064.781210819262
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 1.9480000000000002,
+          "nodesExplored": 1487,
+          "iterations": 3154,
+          "pathLength": 2796.8625947905875
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 2.6691000000000003,
+          "nodesExplored": 1809,
+          "iterations": 4077,
+          "pathLength": 2834.343958923667
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 2.4921,
+          "nodesExplored": 1387,
+          "iterations": 3331,
+          "pathLength": 2928.931325868006
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 1.9046,
+          "nodesExplored": 1460,
+          "iterations": 2919,
+          "pathLength": 2837.486571140173
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 2.306,
+          "nodesExplored": 1203,
+          "iterations": 2892,
+          "pathLength": 3054.561835879187
+        }
+      ]
+    },
+    {
+      "mapId": "m11",
+      "mapName": "Zigzag walls",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 71.86545,
+      "meanNodesExplored": 14583.5,
+      "meanPathLength": 2053.843032161135,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 71.1469,
+          "nodesExplored": 14235,
+          "iterations": 20000,
+          "pathLength": 2056.758244523706
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 74.0442,
+          "nodesExplored": 14739,
+          "iterations": 20000,
+          "pathLength": 2057.5932862715495
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 69.797,
+          "nodesExplored": 14779,
+          "iterations": 20000,
+          "pathLength": 2054.8699458098417
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 72.7882,
+          "nodesExplored": 14643,
+          "iterations": 20000,
+          "pathLength": 2054.2792938852726
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 73.0825,
+          "nodesExplored": 14605,
+          "iterations": 20000,
+          "pathLength": 2049.6621616535735
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 76.1169,
+          "nodesExplored": 14696,
+          "iterations": 20000,
+          "pathLength": 2053.6901389648947
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 71.2342,
+          "nodesExplored": 14352,
+          "iterations": 20000,
+          "pathLength": 2055.079064892903
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 68.20400000000001,
+          "nodesExplored": 14383,
+          "iterations": 20000,
+          "pathLength": 2053.3239914323367
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 74.9456,
+          "nodesExplored": 14839,
+          "iterations": 20000,
+          "pathLength": 2054.028997287938
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 67.29499999999999,
+          "nodesExplored": 14564,
+          "iterations": 20000,
+          "pathLength": 2049.1451968893293
+        }
+      ]
+    },
+    {
+      "mapId": "m12",
+      "mapName": "Pillar lattice",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.22269999999999998,
+      "meanNodesExplored": 184.0,
+      "meanPathLength": 958.9949493661165,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.22269999999999998,
+          "nodesExplored": 184,
+          "iterations": 198,
+          "pathLength": 958.9949493661165
+        }
+      ]
+    },
+    {
+      "mapId": "m12",
+      "mapName": "Pillar lattice",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.24618999999999996,
+      "meanNodesExplored": 188.4,
+      "meanPathLength": 1140.8483808172712,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.29819999999999997,
+          "nodesExplored": 226,
+          "iterations": 408,
+          "pathLength": 1345.8764904014622
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.1594,
+          "nodesExplored": 134,
+          "iterations": 216,
+          "pathLength": 1032.8263115442091
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.24810000000000001,
+          "nodesExplored": 193,
+          "iterations": 375,
+          "pathLength": 1106.908850153682
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.31139999999999995,
+          "nodesExplored": 233,
+          "iterations": 495,
+          "pathLength": 1208.8525622421587
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.16,
+          "nodesExplored": 105,
+          "iterations": 202,
+          "pathLength": 1105.6471773649919
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.2569,
+          "nodesExplored": 194,
+          "iterations": 403,
+          "pathLength": 1120.8827813582557
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.26420000000000005,
+          "nodesExplored": 246,
+          "iterations": 422,
+          "pathLength": 1145.1472618245352
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.2387,
+          "nodesExplored": 224,
+          "iterations": 412,
+          "pathLength": 1125.220263762929
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.27549999999999997,
+          "nodesExplored": 229,
+          "iterations": 437,
+          "pathLength": 1086.850235985419
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.2495,
+          "nodesExplored": 100,
+          "iterations": 225,
+          "pathLength": 1130.2718735350697
+        }
+      ]
+    },
+    {
+      "mapId": "m12",
+      "mapName": "Pillar lattice",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 54.11726,
+      "meanNodesExplored": 11243.1,
+      "meanPathLength": 932.8604085853021,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 58.5456,
+          "nodesExplored": 11250,
+          "iterations": 20000,
+          "pathLength": 932.7634353289939
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 52.2022,
+          "nodesExplored": 11213,
+          "iterations": 20000,
+          "pathLength": 933.3531207519488
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 54.281000000000006,
+          "nodesExplored": 11198,
+          "iterations": 20000,
+          "pathLength": 932.5839264582911
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 56.3377,
+          "nodesExplored": 11220,
+          "iterations": 20000,
+          "pathLength": 932.9222436897385
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 55.2626,
+          "nodesExplored": 11239,
+          "iterations": 20000,
+          "pathLength": 933.2517955880587
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 52.203399999999995,
+          "nodesExplored": 11215,
+          "iterations": 20000,
+          "pathLength": 932.746374460262
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 51.6338,
+          "nodesExplored": 11308,
+          "iterations": 20000,
+          "pathLength": 932.4427554958705
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 53.0261,
+          "nodesExplored": 11341,
+          "iterations": 20000,
+          "pathLength": 933.1358131043638
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 50.5638,
+          "nodesExplored": 11206,
+          "iterations": 20000,
+          "pathLength": 932.586013019766
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 57.1164,
+          "nodesExplored": 11241,
+          "iterations": 20000,
+          "pathLength": 932.8186079557285
+        }
+      ]
+    },
+    {
+      "mapId": "m13",
+      "mapName": "Warehouse shelves",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.495,
+      "meanNodesExplored": 1178.0,
+      "meanPathLength": 1207.106781186549,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.495,
+          "nodesExplored": 1178,
+          "iterations": 1916,
+          "pathLength": 1207.106781186549
+        }
+      ]
+    },
+    {
+      "mapId": "m13",
+      "mapName": "Warehouse shelves",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.27534000000000003,
+      "meanNodesExplored": 226.0,
+      "meanPathLength": 1453.2107601917555,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.3545,
+          "nodesExplored": 235,
+          "iterations": 447,
+          "pathLength": 1504.1610148064992
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.2155,
+          "nodesExplored": 148,
+          "iterations": 268,
+          "pathLength": 1541.5009647210459
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.211,
+          "nodesExplored": 192,
+          "iterations": 347,
+          "pathLength": 1383.5076896885944
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.2837,
+          "nodesExplored": 270,
+          "iterations": 478,
+          "pathLength": 1471.1524611215455
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.3384,
+          "nodesExplored": 268,
+          "iterations": 552,
+          "pathLength": 1525.5630920787994
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.2927,
+          "nodesExplored": 229,
+          "iterations": 429,
+          "pathLength": 1360.6672379995498
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.259,
+          "nodesExplored": 212,
+          "iterations": 386,
+          "pathLength": 1512.4774474528929
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.2695,
+          "nodesExplored": 240,
+          "iterations": 467,
+          "pathLength": 1388.3477100337002
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.2543,
+          "nodesExplored": 236,
+          "iterations": 454,
+          "pathLength": 1453.4797961185243
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.2748,
+          "nodesExplored": 230,
+          "iterations": 447,
+          "pathLength": 1391.2501878964017
+        }
+      ]
+    },
+    {
+      "mapId": "m13",
+      "mapName": "Warehouse shelves",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 57.63622,
+      "meanNodesExplored": 13121.5,
+      "meanPathLength": 1125.131281124569,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 61.3106,
+          "nodesExplored": 13188,
+          "iterations": 20000,
+          "pathLength": 1123.405384574938
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 61.5173,
+          "nodesExplored": 13167,
+          "iterations": 20000,
+          "pathLength": 1123.2512956841695
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 56.372400000000006,
+          "nodesExplored": 13082,
+          "iterations": 20000,
+          "pathLength": 1125.8348206194755
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 54.061,
+          "nodesExplored": 13148,
+          "iterations": 20000,
+          "pathLength": 1122.3925927116516
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 52.7665,
+          "nodesExplored": 13147,
+          "iterations": 20000,
+          "pathLength": 1125.310650902729
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 56.895300000000006,
+          "nodesExplored": 13227,
+          "iterations": 20000,
+          "pathLength": 1124.0644280189995
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 60.666,
+          "nodesExplored": 13033,
+          "iterations": 20000,
+          "pathLength": 1126.638425467779
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 58.3721,
+          "nodesExplored": 13083,
+          "iterations": 20000,
+          "pathLength": 1125.3133234911363
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 55.1322,
+          "nodesExplored": 13058,
+          "iterations": 20000,
+          "pathLength": 1130.3146459254044
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 59.268800000000006,
+          "nodesExplored": 13082,
+          "iterations": 20000,
+          "pathLength": 1124.787243849408
+        }
+      ]
+    },
+    {
+      "mapId": "m14",
+      "mapName": "Dead ends",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.6738999999999999,
+      "meanNodesExplored": 2626.0,
+      "meanPathLength": 1293.9696961967022,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.6738999999999999,
+          "nodesExplored": 2626,
+          "iterations": 5275,
+          "pathLength": 1293.9696961967022
+        }
+      ]
+    },
+    {
+      "mapId": "m14",
+      "mapName": "Dead ends",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.8245100000000001,
+      "meanNodesExplored": 690.3,
+      "meanPathLength": 1596.378924579298,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.8023,
+          "nodesExplored": 734,
+          "iterations": 1720,
+          "pathLength": 1637.4067893298318
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.6040000000000001,
+          "nodesExplored": 463,
+          "iterations": 1234,
+          "pathLength": 1673.850983623978
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.7524,
+          "nodesExplored": 754,
+          "iterations": 1695,
+          "pathLength": 1551.4597934958279
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.5974,
+          "nodesExplored": 421,
+          "iterations": 1131,
+          "pathLength": 1564.1002993309692
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.8059999999999999,
+          "nodesExplored": 519,
+          "iterations": 1415,
+          "pathLength": 1618.4679197359048
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 1.2045000000000001,
+          "nodesExplored": 897,
+          "iterations": 2287,
+          "pathLength": 1526.3992738107881
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.9790000000000001,
+          "nodesExplored": 995,
+          "iterations": 2328,
+          "pathLength": 1730.1446100534233
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.7865,
+          "nodesExplored": 685,
+          "iterations": 1658,
+          "pathLength": 1634.4670514483423
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.587,
+          "nodesExplored": 454,
+          "iterations": 1168,
+          "pathLength": 1535.663045399249
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 1.1260000000000001,
+          "nodesExplored": 981,
+          "iterations": 2473,
+          "pathLength": 1491.829479564665
+        }
+      ]
+    },
+    {
+      "mapId": "m14",
+      "mapName": "Dead ends",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 77.1748,
+      "meanNodesExplored": 15993.8,
+      "meanPathLength": 1231.4808552343866,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 79.5908,
+          "nodesExplored": 15959,
+          "iterations": 20000,
+          "pathLength": 1231.511186542878
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 76.3462,
+          "nodesExplored": 16259,
+          "iterations": 20000,
+          "pathLength": 1228.2942373626206
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 76.9359,
+          "nodesExplored": 16079,
+          "iterations": 20000,
+          "pathLength": 1229.7142509223795
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 81.8921,
+          "nodesExplored": 16153,
+          "iterations": 20000,
+          "pathLength": 1230.188854861629
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 77.8763,
+          "nodesExplored": 16042,
+          "iterations": 20000,
+          "pathLength": 1233.942510438317
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 71.4534,
+          "nodesExplored": 15701,
+          "iterations": 20000,
+          "pathLength": 1230.0589653961333
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 77.9803,
+          "nodesExplored": 15794,
+          "iterations": 20000,
+          "pathLength": 1234.645105342994
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 80.0069,
+          "nodesExplored": 16022,
+          "iterations": 20000,
+          "pathLength": 1231.8341304403182
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 78.83160000000001,
+          "nodesExplored": 16264,
+          "iterations": 20000,
+          "pathLength": 1231.0447137684057
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 70.83449999999999,
+          "nodesExplored": 15665,
+          "iterations": 20000,
+          "pathLength": 1233.5745972681893
+        }
+      ]
+    },
+    {
+      "mapId": "m15",
+      "mapName": "Sparse clutter",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.2698,
+      "meanNodesExplored": 375.0,
+      "meanPathLength": 955.5634918610406,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.2698,
+          "nodesExplored": 375,
+          "iterations": 450,
+          "pathLength": 955.5634918610406
+        }
+      ]
+    },
+    {
+      "mapId": "m15",
+      "mapName": "Sparse clutter",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.20970000000000005,
+      "meanNodesExplored": 231.9,
+      "meanPathLength": 1148.2236060256753,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.19560000000000002,
+          "nodesExplored": 157,
+          "iterations": 213,
+          "pathLength": 1201.5533638809243
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.10679999999999999,
+          "nodesExplored": 165,
+          "iterations": 197,
+          "pathLength": 1081.7100548449073
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.3682,
+          "nodesExplored": 374,
+          "iterations": 607,
+          "pathLength": 1244.334216528553
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.2366,
+          "nodesExplored": 283,
+          "iterations": 450,
+          "pathLength": 1136.1451508353096
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.1353,
+          "nodesExplored": 156,
+          "iterations": 218,
+          "pathLength": 1072.1172655805276
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.1191,
+          "nodesExplored": 171,
+          "iterations": 213,
+          "pathLength": 1169.4319537963113
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.12129999999999999,
+          "nodesExplored": 146,
+          "iterations": 188,
+          "pathLength": 1069.158777333188
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.4213,
+          "nodesExplored": 489,
+          "iterations": 672,
+          "pathLength": 1177.8999464113094
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.13870000000000002,
+          "nodesExplored": 176,
+          "iterations": 239,
+          "pathLength": 1085.266196991816
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.2541,
+          "nodesExplored": 202,
+          "iterations": 339,
+          "pathLength": 1244.6191340539087
+        }
+      ]
+    },
+    {
+      "mapId": "m15",
+      "mapName": "Sparse clutter",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 74.08489,
+      "meanNodesExplored": 14805.0,
+      "meanPathLength": 914.8052774873971,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 75.5865,
+          "nodesExplored": 14885,
+          "iterations": 20000,
+          "pathLength": 915.0012617738179
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 77.5452,
+          "nodesExplored": 14900,
+          "iterations": 20000,
+          "pathLength": 914.9265823534812
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 73.5055,
+          "nodesExplored": 14802,
+          "iterations": 20000,
+          "pathLength": 915.2282506261542
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 75.1467,
+          "nodesExplored": 14788,
+          "iterations": 20000,
+          "pathLength": 914.4903768233888
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 73.03800000000001,
+          "nodesExplored": 14804,
+          "iterations": 20000,
+          "pathLength": 914.8032878587429
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 76.67219999999999,
+          "nodesExplored": 14718,
+          "iterations": 20000,
+          "pathLength": 914.6622371346172
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 71.6611,
+          "nodesExplored": 14872,
+          "iterations": 20000,
+          "pathLength": 914.5289676924194
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 75.8898,
+          "nodesExplored": 14842,
+          "iterations": 20000,
+          "pathLength": 914.4694181059259
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 70.897,
+          "nodesExplored": 14781,
+          "iterations": 20000,
+          "pathLength": 914.6779489749844
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 70.9069,
+          "nodesExplored": 14658,
+          "iterations": 20000,
+          "pathLength": 915.2644435304395
+        }
+      ]
+    },
+    {
+      "mapId": "m16",
+      "mapName": "Scattered boulders",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.421,
+      "meanNodesExplored": 690.0,
+      "meanPathLength": 972.1320343559644,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.421,
+          "nodesExplored": 690,
+          "iterations": 1310,
+          "pathLength": 972.1320343559644
+        }
+      ]
+    },
+    {
+      "mapId": "m16",
+      "mapName": "Scattered boulders",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.15869,
+      "meanNodesExplored": 168.2,
+      "meanPathLength": 1115.862886046676,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.2102,
+          "nodesExplored": 208,
+          "iterations": 333,
+          "pathLength": 1042.7849054331373
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.13520000000000001,
+          "nodesExplored": 168,
+          "iterations": 213,
+          "pathLength": 1207.7300120765194
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.1103,
+          "nodesExplored": 152,
+          "iterations": 186,
+          "pathLength": 1069.4735878947758
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.12210000000000001,
+          "nodesExplored": 124,
+          "iterations": 178,
+          "pathLength": 1062.5163767732467
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.15109999999999998,
+          "nodesExplored": 158,
+          "iterations": 218,
+          "pathLength": 1191.193578387354
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.1817,
+          "nodesExplored": 152,
+          "iterations": 225,
+          "pathLength": 1106.5469542520052
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.1441,
+          "nodesExplored": 140,
+          "iterations": 197,
+          "pathLength": 1191.2743080236862
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.1726,
+          "nodesExplored": 253,
+          "iterations": 314,
+          "pathLength": 1109.197885556081
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.21689999999999998,
+          "nodesExplored": 202,
+          "iterations": 281,
+          "pathLength": 1065.4052136891248
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.1427,
+          "nodesExplored": 125,
+          "iterations": 167,
+          "pathLength": 1112.5060383808313
+        }
+      ]
+    },
+    {
+      "mapId": "m16",
+      "mapName": "Scattered boulders",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 72.58401,
+      "meanNodesExplored": 14461.9,
+      "meanPathLength": 913.2413693421901,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 71.3565,
+          "nodesExplored": 14374,
+          "iterations": 20000,
+          "pathLength": 914.014676241077
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 73.64020000000001,
+          "nodesExplored": 14517,
+          "iterations": 20000,
+          "pathLength": 913.5637481510014
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 71.2586,
+          "nodesExplored": 14470,
+          "iterations": 20000,
+          "pathLength": 913.251183047499
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 74.1344,
+          "nodesExplored": 14450,
+          "iterations": 20000,
+          "pathLength": 912.7968607148955
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 75.0596,
+          "nodesExplored": 14344,
+          "iterations": 20000,
+          "pathLength": 913.2919756717873
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 68.60249999999999,
+          "nodesExplored": 14398,
+          "iterations": 20000,
+          "pathLength": 913.198593902855
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 70.26259999999999,
+          "nodesExplored": 14486,
+          "iterations": 20000,
+          "pathLength": 912.4023818241035
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 77.5991,
+          "nodesExplored": 14545,
+          "iterations": 20000,
+          "pathLength": 914.2619945957922
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 74.85690000000001,
+          "nodesExplored": 14511,
+          "iterations": 20000,
+          "pathLength": 912.7864528420681
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 69.0697,
+          "nodesExplored": 14524,
+          "iterations": 20000,
+          "pathLength": 912.8458264308215
+        }
+      ]
+    },
+    {
+      "mapId": "m17",
+      "mapName": "Mixed clutter",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.3122,
+      "meanNodesExplored": 444.0,
+      "meanPathLength": 963.8477631085022,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.3122,
+          "nodesExplored": 444,
+          "iterations": 678,
+          "pathLength": 963.8477631085022
+        }
+      ]
+    },
+    {
+      "mapId": "m17",
+      "mapName": "Mixed clutter",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.21147,
+      "meanNodesExplored": 222.2,
+      "meanPathLength": 1182.1493264799162,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.179,
+          "nodesExplored": 164,
+          "iterations": 237,
+          "pathLength": 1094.3906648716163
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.28459999999999996,
+          "nodesExplored": 223,
+          "iterations": 399,
+          "pathLength": 1388.646436144098
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.2182,
+          "nodesExplored": 257,
+          "iterations": 383,
+          "pathLength": 1136.0345870648675
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.1756,
+          "nodesExplored": 148,
+          "iterations": 233,
+          "pathLength": 1126.1200124846846
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.3149,
+          "nodesExplored": 310,
+          "iterations": 571,
+          "pathLength": 1260.431610526788
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.1476,
+          "nodesExplored": 159,
+          "iterations": 225,
+          "pathLength": 1230.7504487960719
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.12430000000000001,
+          "nodesExplored": 147,
+          "iterations": 199,
+          "pathLength": 1133.0053201940848
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.1242,
+          "nodesExplored": 161,
+          "iterations": 218,
+          "pathLength": 1154.8737182536831
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.1952,
+          "nodesExplored": 222,
+          "iterations": 333,
+          "pathLength": 1165.8436681872276
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.3511,
+          "nodesExplored": 431,
+          "iterations": 714,
+          "pathLength": 1131.3967982760414
+        }
+      ]
+    },
+    {
+      "mapId": "m17",
+      "mapName": "Mixed clutter",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 70.4143,
+      "meanNodesExplored": 13857.0,
+      "meanPathLength": 915.9914888361218,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 70.846,
+          "nodesExplored": 13947,
+          "iterations": 20000,
+          "pathLength": 915.5708763491333
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 71.86670000000001,
+          "nodesExplored": 13960,
+          "iterations": 20000,
+          "pathLength": 915.9087724037073
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 70.0615,
+          "nodesExplored": 13887,
+          "iterations": 20000,
+          "pathLength": 916.059481845918
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 64.81049999999999,
+          "nodesExplored": 13806,
+          "iterations": 20000,
+          "pathLength": 915.7461822313928
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 71.6987,
+          "nodesExplored": 13704,
+          "iterations": 20000,
+          "pathLength": 916.6704162927277
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 68.5242,
+          "nodesExplored": 13827,
+          "iterations": 20000,
+          "pathLength": 915.3735461706303
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 69.39819999999999,
+          "nodesExplored": 13982,
+          "iterations": 20000,
+          "pathLength": 916.1443027718636
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 74.1802,
+          "nodesExplored": 13803,
+          "iterations": 20000,
+          "pathLength": 916.4001685381996
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 70.55590000000001,
+          "nodesExplored": 13911,
+          "iterations": 20000,
+          "pathLength": 916.6802792369278
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 72.20110000000001,
+          "nodesExplored": 13743,
+          "iterations": 20000,
+          "pathLength": 915.3608625207181
+        }
+      ]
+    },
+    {
+      "mapId": "m18",
+      "mapName": "Dense blocks",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.7915,
+      "meanNodesExplored": 930.0,
+      "meanPathLength": 988.7005768508882,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.7915,
+          "nodesExplored": 930,
+          "iterations": 2034,
+          "pathLength": 988.7005768508882
+        }
+      ]
+    },
+    {
+      "mapId": "m18",
+      "mapName": "Dense blocks",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.27421,
+      "meanNodesExplored": 315.5,
+      "meanPathLength": 1286.1099535098729,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.27320000000000005,
+          "nodesExplored": 228,
+          "iterations": 445,
+          "pathLength": 1091.3911644976367
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.3624,
+          "nodesExplored": 454,
+          "iterations": 819,
+          "pathLength": 1382.2441823141676
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.174,
+          "nodesExplored": 221,
+          "iterations": 336,
+          "pathLength": 1135.005022660565
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.2731,
+          "nodesExplored": 271,
+          "iterations": 478,
+          "pathLength": 1371.200183177259
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.2306,
+          "nodesExplored": 233,
+          "iterations": 428,
+          "pathLength": 1415.9318197008433
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.3993,
+          "nodesExplored": 588,
+          "iterations": 1007,
+          "pathLength": 1211.5325199595454
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.1716,
+          "nodesExplored": 150,
+          "iterations": 268,
+          "pathLength": 1088.9836518026284
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.1924,
+          "nodesExplored": 193,
+          "iterations": 365,
+          "pathLength": 1220.4026254628823
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.2913,
+          "nodesExplored": 364,
+          "iterations": 659,
+          "pathLength": 1419.7858821323382
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.3742,
+          "nodesExplored": 453,
+          "iterations": 877,
+          "pathLength": 1524.6224833908611
+        }
+      ]
+    },
+    {
+      "mapId": "m18",
+      "mapName": "Dense blocks",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 63.38462,
+      "meanNodesExplored": 11992.8,
+      "meanPathLength": 927.5916210403029,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 59.0412,
+          "nodesExplored": 11954,
+          "iterations": 20000,
+          "pathLength": 927.5694225550639
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 68.6785,
+          "nodesExplored": 12098,
+          "iterations": 20000,
+          "pathLength": 927.3232597683905
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 60.7139,
+          "nodesExplored": 12098,
+          "iterations": 20000,
+          "pathLength": 927.4371812224856
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 65.4478,
+          "nodesExplored": 11965,
+          "iterations": 20000,
+          "pathLength": 927.9822308615855
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 68.08930000000001,
+          "nodesExplored": 12032,
+          "iterations": 20000,
+          "pathLength": 927.9331084706478
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 59.587599999999995,
+          "nodesExplored": 11933,
+          "iterations": 20000,
+          "pathLength": 927.0021946167824
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 57.039899999999996,
+          "nodesExplored": 12007,
+          "iterations": 20000,
+          "pathLength": 926.93184305826
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 67.6995,
+          "nodesExplored": 11989,
+          "iterations": 20000,
+          "pathLength": 928.19664487227
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 65.18780000000001,
+          "nodesExplored": 11998,
+          "iterations": 20000,
+          "pathLength": 928.438903117092
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 62.3607,
+          "nodesExplored": 11854,
+          "iterations": 20000,
+          "pathLength": 927.1014218604518
+        }
+      ]
+    },
+    {
+      "mapId": "m19",
+      "mapName": "Dense mixed clutter",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.8725999999999999,
+      "meanNodesExplored": 731.0,
+      "meanPathLength": 980.4163056034263,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.8725999999999999,
+          "nodesExplored": 731,
+          "iterations": 1270,
+          "pathLength": 980.4163056034263
+        }
+      ]
+    },
+    {
+      "mapId": "m19",
+      "mapName": "Dense mixed clutter",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.37263999999999997,
+      "meanNodesExplored": 218.4,
+      "meanPathLength": 1210.0844377817116,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.2396,
+          "nodesExplored": 154,
+          "iterations": 255,
+          "pathLength": 1047.88717854614
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.3592,
+          "nodesExplored": 204,
+          "iterations": 417,
+          "pathLength": 1297.4191155791366
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.5573,
+          "nodesExplored": 308,
+          "iterations": 631,
+          "pathLength": 1147.1171588900888
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.4819,
+          "nodesExplored": 197,
+          "iterations": 439,
+          "pathLength": 1167.6625763367692
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.183,
+          "nodesExplored": 158,
+          "iterations": 218,
+          "pathLength": 1168.6232665136797
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.519,
+          "nodesExplored": 308,
+          "iterations": 655,
+          "pathLength": 1173.5934607735285
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.48819999999999997,
+          "nodesExplored": 243,
+          "iterations": 495,
+          "pathLength": 1337.8508899688973
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.2788,
+          "nodesExplored": 206,
+          "iterations": 365,
+          "pathLength": 1273.8394566231289
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.2379,
+          "nodesExplored": 193,
+          "iterations": 313,
+          "pathLength": 1276.8504922960049
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.3815,
+          "nodesExplored": 213,
+          "iterations": 417,
+          "pathLength": 1210.0007822897426
+        }
+      ]
+    },
+    {
+      "mapId": "m19",
+      "mapName": "Dense mixed clutter",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 66.98972,
+      "meanNodesExplored": 12260.2,
+      "meanPathLength": 922.5965977910994,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 68.1254,
+          "nodesExplored": 12285,
+          "iterations": 20000,
+          "pathLength": 922.4311574944027
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 62.928700000000006,
+          "nodesExplored": 12186,
+          "iterations": 20000,
+          "pathLength": 923.2804817517509
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 72.2047,
+          "nodesExplored": 12238,
+          "iterations": 20000,
+          "pathLength": 922.34946504101
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 66.8878,
+          "nodesExplored": 12386,
+          "iterations": 20000,
+          "pathLength": 922.5745869081285
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 62.3197,
+          "nodesExplored": 12215,
+          "iterations": 20000,
+          "pathLength": 921.6198800507701
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 63.13870000000001,
+          "nodesExplored": 12041,
+          "iterations": 20000,
+          "pathLength": 922.5103923922877
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 65.777,
+          "nodesExplored": 12230,
+          "iterations": 20000,
+          "pathLength": 921.5390357880868
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 69.0319,
+          "nodesExplored": 12304,
+          "iterations": 20000,
+          "pathLength": 923.1227141857839
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 70.3815,
+          "nodesExplored": 12432,
+          "iterations": 20000,
+          "pathLength": 924.4408175254853
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 69.10180000000001,
+          "nodesExplored": 12285,
+          "iterations": 20000,
+          "pathLength": 922.0974467732882
+        }
+      ]
+    },
+    {
+      "mapId": "m20",
+      "mapName": "Forest",
+      "algorithm": "astar",
+      "runs": 1,
+      "successes": 1,
+      "meanTimeMs": 0.8310000000000001,
+      "meanNodesExplored": 629.0,
+      "meanPathLength": 1002.842712474619,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 0.8310000000000001,
+          "nodesExplored": 629,
+          "iterations": 1058,
+          "pathLength": 1002.842712474619
+        }
+      ]
+    },
+    {
+      "mapId": "m20",
+      "mapName": "Forest",
+      "algorithm": "rrt",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 0.49988,
+      "meanNodesExplored": 258.9,
+      "meanPathLength": 1241.6115858007556,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 1.0926,
+          "nodesExplored": 222,
+          "iterations": 1016,
+          "pathLength": 1449.4442807273476
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 0.3414,
+          "nodesExplored": 208,
+          "iterations": 534,
+          "pathLength": 1104.0547265590944
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 0.37520000000000003,
+          "nodesExplored": 141,
+          "iterations": 368,
+          "pathLength": 1132.1446689539305
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 0.6064,
+          "nodesExplored": 308,
+          "iterations": 972,
+          "pathLength": 1376.563783402749
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 0.3499,
+          "nodesExplored": 168,
+          "iterations": 428,
+          "pathLength": 1481.9034494201314
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 0.1772,
+          "nodesExplored": 113,
+          "iterations": 225,
+          "pathLength": 1169.5392827000787
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 0.5109999999999999,
+          "nodesExplored": 328,
+          "iterations": 814,
+          "pathLength": 1101.088831292693
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 0.2766,
+          "nodesExplored": 191,
+          "iterations": 412,
+          "pathLength": 1173.691028534823
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 0.6627,
+          "nodesExplored": 475,
+          "iterations": 1202,
+          "pathLength": 1248.934143006683
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 0.6058,
+          "nodesExplored": 435,
+          "iterations": 1100,
+          "pathLength": 1178.7516634100261
+        }
+      ]
+    },
+    {
+      "mapId": "m20",
+      "mapName": "Forest",
+      "algorithm": "rrtstar",
+      "runs": 10,
+      "successes": 10,
+      "meanTimeMs": 73.43718999999999,
+      "meanNodesExplored": 11369.8,
+      "meanPathLength": 924.9817674402523,
+      "records": [
+        {
+          "seed": 1,
+          "found": true,
+          "timeMs": 65.1607,
+          "nodesExplored": 10735,
+          "iterations": 20000,
+          "pathLength": 925.384518983922
+        },
+        {
+          "seed": 2,
+          "found": true,
+          "timeMs": 76.9048,
+          "nodesExplored": 11546,
+          "iterations": 20000,
+          "pathLength": 925.1410684638469
+        },
+        {
+          "seed": 3,
+          "found": true,
+          "timeMs": 73.3055,
+          "nodesExplored": 11595,
+          "iterations": 20000,
+          "pathLength": 924.9399628480495
+        },
+        {
+          "seed": 4,
+          "found": true,
+          "timeMs": 79.9059,
+          "nodesExplored": 11452,
+          "iterations": 20000,
+          "pathLength": 924.8603646091359
+        },
+        {
+          "seed": 5,
+          "found": true,
+          "timeMs": 78.3756,
+          "nodesExplored": 11641,
+          "iterations": 20000,
+          "pathLength": 924.7588597296407
+        },
+        {
+          "seed": 6,
+          "found": true,
+          "timeMs": 74.1755,
+          "nodesExplored": 11082,
+          "iterations": 20000,
+          "pathLength": 924.85076201695
+        },
+        {
+          "seed": 7,
+          "found": true,
+          "timeMs": 71.463,
+          "nodesExplored": 11006,
+          "iterations": 20000,
+          "pathLength": 925.005586915535
+        },
+        {
+          "seed": 8,
+          "found": true,
+          "timeMs": 72.12540000000001,
+          "nodesExplored": 11809,
+          "iterations": 20000,
+          "pathLength": 925.2804728621401
+        },
+        {
+          "seed": 9,
+          "found": true,
+          "timeMs": 73.0599,
+          "nodesExplored": 11714,
+          "iterations": 20000,
+          "pathLength": 924.9036290086148
+        },
+        {
+          "seed": 10,
+          "found": true,
+          "timeMs": 69.8956,
+          "nodesExplored": 11118,
+          "iterations": 20000,
+          "pathLength": 924.6924489646855
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "algorithm": "astar",
+      "runs": 20,
+      "successes": 20,
+      "success": "20 of 20",
+      "meanTimeMs": 0.55221,
+      "meanNodesExplored": 1398.8,
+      "meanPathLength": 1297.9508174707837,
+      "meanPathRatioVsAstar": 1.0
+    },
+    {
+      "algorithm": "rrt",
+      "runs": 200,
+      "successes": 200,
+      "success": "200 of 200",
+      "meanTimeMs": 0.7972664999999999,
+      "meanNodesExplored": 617.69,
+      "meanPathLength": 1599.5095894586618,
+      "meanPathRatioVsAstar": 1.2254882658032806
+    },
+    {
+      "algorithm": "rrtstar",
+      "runs": 200,
+      "successes": 200,
+      "success": "200 of 200",
+      "meanTimeMs": 72.403535,
+      "meanNodesExplored": 14063.475,
+      "meanPathLength": 1220.0348323655844,
+      "meanPathRatioVsAstar": 0.9388538608016386
+    }
+  ]
+}

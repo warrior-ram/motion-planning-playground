@@ -1,0 +1,14 @@
+# Rust build output
+/target
+**/*.rs.bk
+
+# Frontend build output and dependencies (also covered by web/.gitignore)
+node_modules
+dist
+
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode
+.idea

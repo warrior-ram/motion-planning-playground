@@ -1,0 +1,16 @@
+{
+  "name": "kinematics",
+  "type": "module",
+  "description": "Planar 2/3-link arm FK, DLS IK and joint-space RRT/RRT* planning, compiled to WASM",
+  "version": "0.1.0",
+  "files": [
+    "kinematics_bg.wasm",
+    "kinematics.js",
+    "kinematics.d.ts"
+  ],
+  "main": "kinematics.js",
+  "types": "kinematics.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
