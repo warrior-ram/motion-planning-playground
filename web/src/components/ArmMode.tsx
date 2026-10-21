@@ -7,19 +7,20 @@ import { ArmCanvas, type ArmPlanView, type ArmState, type ArmTool } from './ArmC
 import { CountUp } from './CountUp'
 import { IconArm, IconCircle, IconErase, IconPlay, IconRect, IconSkip, IconSwap } from './Icons'
 
-const BASE: Point = { x: 500, y: 600 }
+// Base at the centre, and links summing to 290, so the full reach circle fits on the 1000 x 640 canvas.
+const BASE: Point = { x: 500, y: 320 }
 const THICKNESS = 14
 // Matches the kinematics crate default; the 3-joint preset needs about 10,000 to succeed on every seed.
 const ARM_MAX_ITER = 10000
 
 const PRESETS = {
-  3: { links: [180, 140, 90], a: [-1.2, -0.5, -0.3], b: [-1.94, -0.5, -0.3] },
-  2: { links: [220, 180], a: [-1.0, -0.8], b: [-2.4, 0.6] },
+  3: { links: [127, 99, 64], a: [-1.2, -0.5, -0.3], b: [-1.94, -0.5, -0.3] },
+  2: { links: [160, 130], a: [-1.0, -0.8], b: [-2.4, 0.6] },
 } as const
 
 const DEFAULT_OBSTACLES: Obstacle[] = [
-  { kind: 'circle', x: 400, y: 250, r: 44 },
-  { kind: 'rect', x: 120, y: 120, w: 150, h: 36 },
+  { kind: 'circle', x: 430, y: 78, r: 34 },
+  { kind: 'rect', x: 250, y: 440, w: 110, h: 30 },
 ]
 
 const TOOLS: { id: ArmTool; label: string; icon: () => React.ReactElement }[] = [

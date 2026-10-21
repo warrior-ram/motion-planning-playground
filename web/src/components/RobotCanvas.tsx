@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useLayoutEffect, useRef } from 'react'
 import type { Algorithm, Obstacle, PlanEvent, Point } from '../engine/types'
 import type { TimedPlan } from '../engine/planner'
 import { ALGO_BY_ID, COLORS, ROBOT_RADIUS, WORLD_H, WORLD_W, easeInOutCubic, easeOutBack, easeOutExpo } from '../lib/theme'
@@ -73,7 +73,10 @@ type Drag =
 export function RobotCanvas(props: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const propsRef = useRef(props)
-  propsRef.current = props
+  // Keep the latest props for the animation loop and pointer handlers, synced after each commit.
+  useLayoutEffect(() => {
+    propsRef.current = props
+  })
 
   useEffect(() => {
     const canvas = canvasRef.current!

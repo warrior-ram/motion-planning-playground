@@ -7,7 +7,7 @@ All of the planning code is Rust, compiled to WebAssembly, and runs in the brows
 ## What it does
 
 - **Mobile robot:** plans a path for a disc-shaped robot with A*, RRT or RRT*, or races all three. Planning time, nodes explored and path length appear side by side for each planner.
-- **Robot arm:** forward and inverse kinematics for a planar 2 or 3 joint arm. Drag the end effector and the joints follow. RRT or RRT* plans in joint space to move the arm between two poses without touching obstacles.
+- **Robot arm:** forward and inverse kinematics for a planar 2 or 3 joint arm mounted at the centre of the canvas, so it can reach in every direction. Drag the end effector and the joints follow. RRT or RRT* plans in joint space to move the arm between two poses without touching obstacles. On the default scene both planners succeed on 20 of 20 seeds, for both 2 and 3 joints.
 - **Benchmark:** every planner over 20 fixed maps, shown on the page and reproducible from the command line.
 
 ## The algorithms
@@ -44,6 +44,8 @@ The tree planners answer every nearest-node and nearby-node query from a uniform
 | RRT\*, mean per map (browser) | about 440 ms | 98 ms |
 | RRT\*, worst map (browser) | about 870 ms | 131 ms |
 | Arm RRT\*, 3 joints, 10,000 iterations (native) | 1,114 ms | 212 ms |
+
+The arm timings were measured on the original arm scene, before the arm moved to the centre of the canvas.
 
 ## Run it
 

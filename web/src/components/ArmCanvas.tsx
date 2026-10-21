@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useLayoutEffect, useRef } from 'react'
 import type { Obstacle, Point } from '../engine/types'
 import { COLORS, WORLD_H, WORLD_W, easeInOutCubic, easeOutBack, easeOutExpo } from '../lib/theme'
 import { clamp, dist, fkLocal, normRect, pointInObstacle } from '../lib/geometry'
@@ -54,7 +54,10 @@ type Drag =
 export function ArmCanvas(props: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const propsRef = useRef(props)
-  propsRef.current = props
+  // Keep the latest props for the animation loop and pointer handlers, synced after each commit.
+  useLayoutEffect(() => {
+    propsRef.current = props
+  })
 
   useEffect(() => {
     const canvas = canvasRef.current!
@@ -277,7 +280,7 @@ export function ArmCanvas(props: Props) {
       ctx.strokeStyle = 'rgba(236,238,241,0.14)'
       ctx.lineWidth = unit
       ctx.beginPath()
-      ctx.arc(P.base.x, P.base.y, reach * reveal, Math.PI, Math.PI * 2)
+      ctx.arc(P.base.x, P.base.y, reach * reveal, 0, Math.PI * 2)
       ctx.stroke()
       ctx.setLineDash([])
 
@@ -330,6 +333,12 @@ export function ArmCanvas(props: Props) {
         }
       }
 
+      // base hub (the arm can swing all the way round it)
+      ctx.fillStyle = '#2B3038'
+      ctx.beginPath()
+      ctx.arc(P.base.x, P.base.y, 20, 0, Math.PI * 2)
+      ctx.fill()
+
       // ghost pose
       if (P.ghost && !(plan && planPhase !== 'done')) {
         const gj = fkLocal(P.base, P.links, P.ghost)
@@ -362,12 +371,6 @@ export function ArmCanvas(props: Props) {
         ctx.arc(target.x, target.y, 3 * unit, 0, Math.PI * 2)
         ctx.fill()
       }
-
-      // base plate
-      ctx.fillStyle = '#2B3038'
-      ctx.beginPath()
-      ctx.roundRect(P.base.x - 46, P.base.y + 6, 92, 22, 4)
-      ctx.fill()
 
       // draft obstacle
       if (drag && drag.kind !== 'arm') {

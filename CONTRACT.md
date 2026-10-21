@@ -108,7 +108,7 @@ Arm: planar serial chain, 2 or 3 revolute joints.
 ### `fk(req: &str) -> String`
 
 ```json
-{ "base": {"x":500,"y":600}, "links": [180,140,90], "angles": [-1.2, 0.5, 0.3] }
+{ "base": {"x":500,"y":320}, "links": [127,99,64], "angles": [-1.2, 0.5, 0.3] }
 -> { "joints": [{"x":..,"y":..}] }   // length = links.len()+1, includes base and end effector
 ```
 
